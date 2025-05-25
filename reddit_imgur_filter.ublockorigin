@@ -1,0 +1,9 @@
+! Block domains
+127.0.0.1 *.reddit.com
+127.0.0.1 *.imgur.com
+
+! Block results from Startpage
+www.startpage.com##div.result:has(a[href^="https://www.imgur.com"])
+www.startpage.com##div.result:has(a[href^="https://www.reddit.com"])
+www.startpage.com##div.result:has(a[href^="https://imgur.com"])
+www.startpage.com##div.result:has(a[href^="https://reddit.com"])
